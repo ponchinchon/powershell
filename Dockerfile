@@ -1,2 +1,3 @@
-FROM mcr.microsoft.com/powershell
-ENTRYPOINT ["curl" "https://time.is"]
+FROM ubuntu
+RUN apt-get update
+CMD ["timedatectl"]
