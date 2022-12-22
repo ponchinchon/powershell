@@ -1,2 +1,2 @@
 FROM mcr.microsoft.com/powershell
-RUN "w32tm"
+RUN "curl 'https://time.is'"
