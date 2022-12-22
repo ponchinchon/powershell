@@ -1,1 +1,1 @@
-docker run -it mcr.microsoft.com/powershell
+FROM mcr.microsoft.com/powershell
