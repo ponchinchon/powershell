@@ -1,2 +1,2 @@
 FROM mcr.microsoft.com/powershell
-RUN "Get-NtpTime"
+RUN "w32tm"
