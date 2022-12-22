@@ -1,2 +1,2 @@
 FROM mcr.microsoft.com/powershell
-EXEC "Get-NtpTime"
+RUN "Get-NtpTime"
